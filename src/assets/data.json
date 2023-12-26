@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "title": "News-Monkey",
+      "description": "This is the sample description",
+      "url": "https://github.com/sagarbalamwar/News-Monkey",
+      "imgsrc": "https://live.staticflickr.com/65535/53418739192_11f581e701_c.jpg"
+    },
+    {
+      "title": "Video Hub",
+      "description": "This is the sample description",
+      "url": "https://chakra-video-app.netlify.app/",
+      "imgsrc": "https://live.staticflickr.com/65535/53419827073_3d3e7755f4_z.jpg"
+    },
+    {
+      "title": "X-Crypto",
+      "description": "This is the sample description",
+      "url": "https://x-crypto-app.netlify.app/",
+      "imgsrc": "https://live.staticflickr.com/65535/53419983869_5699fcf324_z.jpg"
+    },
+    {
+      "title": "Weather-App",
+      "description": "This is the sample description",
+      "url": "https://weather-app-f2d232.netlify.app/",
+      "imgsrc": "https://live.staticflickr.com/65535/53419663941_7a65ac3998_z.jpg"
+    },
+    {
+      "title": "Starbucks-Landing Page",
+      "description": "This is the sample description",
+      "url": "https://landing-page-of-starbucks.netlify.app/",
+      "imgsrc": "https://live.staticflickr.com/65535/53419983859_1317df4584_z.jpg"
+    },
+    {
+      "title": "Pepsi-Landing Page",
+      "description": "This is the sample description",
+      "url": "https://landing-page-of-pepsi.netlify.app/",
+      "imgsrc": "https://live.staticflickr.com/65535/53420097355_aeb8418a2f_z.jpg"
+    }
+  ]
+}

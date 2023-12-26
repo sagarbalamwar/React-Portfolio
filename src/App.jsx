@@ -1,10 +1,22 @@
-import React from 'react'
+import Header from "./components/Header"
+import Home from "./components/Home"
+import Work from "./components/Work"
+import Services from "./components/Services"
+import Contact from "./components/Contact"
+import Footer from "./components/Footer"
+import { Toaster } from "react-hot-toast"
 
 function App() {
   return (
-    <div>
-      <h1>portfolio</h1>
-    </div>
+    <>
+      <Header />
+      <Home />
+      <Work />
+      <Services />
+      <Contact />
+      <Footer />
+      <Toaster />
+    </>
   )
 }
 
