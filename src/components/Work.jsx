@@ -1,6 +1,7 @@
 import { Carousel } from "react-responsive-carousel"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import data from "../assets/data.json"
+
 const Work = () => {
   return (
     <div id="work">
@@ -23,7 +24,6 @@ const Work = () => {
                   <h3>{i.title}</h3>
                   <p>{i.description}</p>
                   <a target={"blank"} href={i.url}>
-                   
                     View Demo
                   </a>
                 </aside>

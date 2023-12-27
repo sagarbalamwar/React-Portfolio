@@ -1,8 +1,8 @@
-import React from "react"
 import { motion } from "framer-motion"
 import Typewriter from "typewriter-effect"
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs"
-import img from "../assets/dev.webp"
+import img from "../assets/dev.png"
+
 const Home = () => {
   const animations = {
     h1: {
@@ -44,7 +44,7 @@ const Home = () => {
       <section>
         <img src={img} alt="me" />
       </section>
-      <BsChevronDown/>
+      <BsChevronDown />
     </div>
   )
 }
