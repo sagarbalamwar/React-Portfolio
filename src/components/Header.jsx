@@ -1,21 +1,43 @@
-import React from "react"
+/* eslint-disable react/prop-types */
 
-const Header = () => {
+import { AiOutlineMenu } from "react-icons/ai"
+const Header = ({ menuOpen, setMenuOpen }) => {
   return (
-    <nav>
-      <NavContent />
-    </nav>
+    <>
+      <nav>
+        <NavContent />
+        <button onClick={() => setMenuOpen(!menuOpen)}>
+          <AiOutlineMenu />
+        </button>
+      </nav>
+    </>
   )
 }
 
-const NavContent = () => (
+export const HeaderPhone = ({ setMenuOpen, menuOpen }) => {
+  return (
+    <div className={`navPhone ${menuOpen ? "navPhoneComes" : ""}`}>
+      <NavContent setMenuOpen={setMenuOpen} />
+    </div>
+  )
+}
+
+export const NavContent = ({ setMenuOpen }) => (
   <>
     <h2>Sagar.</h2>
     <div>
-      <a href="#home">Home</a>
-      <a href="#work">Work</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact US</a>
+      <a onClick={() => setMenuOpen(false)} href="#home">
+        Home
+      </a>
+      <a onClick={() => setMenuOpen(false)} href="#work">
+        Work
+      </a>
+      <a onClick={() => setMenuOpen(false)} href="#services">
+        Services
+      </a>
+      <a onClick={() => setMenuOpen(false)} href="#contact">
+        Contact US
+      </a>
     </div>
     <a href="mailto:sagarbalamwar888@gmail.com">
       <button>Email</button>
